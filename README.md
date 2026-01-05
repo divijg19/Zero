@@ -87,6 +87,10 @@ These features exist, but are **never initialized** until explicitly triggered.
 Idle Zero behaves like nano.
 Active Zero behaves like a modern editor.
 
+### Terminal compatibility
+Zero is developed and validated against Ghostty, with Alacritty serving as the baseline compatibility target.
+Any terminal that correctly implements modern ANSI and PTY behavior should work without special configuration.
+
 ---
 
 ## Performance Targets
